@@ -2,7 +2,7 @@
 
 A personal learning repository documenting my progress and lessons learned while mastering Rust programming.
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Learning Goals](#learning-goals)
 - [Progress Overview](#progress-overview)
@@ -13,7 +13,7 @@ A personal learning repository documenting my progress and lessons learned while
 
 ---
 
-## 🎯 Learning Goals
+##  Learning Goals
 
 - [ ] Understand Rust fundamentals (ownership, borrowing, lifetimes)
 - [ ] Master pattern matching and error handling
@@ -24,7 +24,7 @@ A personal learning repository documenting my progress and lessons learned while
 
 ---
 
-## 📊 Progress Overview
+##  Progress Overview
 
 | Week | Focus Area | Status | Notes |
 |------|-----------|--------|-------|
@@ -36,7 +36,7 @@ A personal learning repository documenting my progress and lessons learned while
 
 ---
 
-## 📚 Core Concepts
+##  Core Concepts
 
 ### 1. **Ownership & Borrowing**
 
@@ -50,11 +50,13 @@ A personal learning repository documenting my progress and lessons learned while
 
 ---
 
-## 📅 Daily Lessons
+##  Daily Lessons
 
 ### **Date: [2026-02-11]**
-- **Topic**: 
-- **What I Learned**: 
+- **Topic**: ***Getting Started***
+- **What I Learned**: ***Today i installed Rust, created my fist rust project with cargo(Rust package manager) and ran my first Hello World!! program in Rust.  ***
 - **Code Examples**: 
 ```rust
-// Your code here# Rust_Tutorial_Notes
+fn main(){
+    println!("Hello World!! This is my first Rust program as a Rustaceun ")
+}
