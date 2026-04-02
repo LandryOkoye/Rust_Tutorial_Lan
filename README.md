@@ -54,9 +54,21 @@ A personal learning repository documenting my progress and lessons learned while
 
 ### **Date: [2026-02-11]**
 - **Topic**: ***Getting Started***
-- **What I Learned**: ***Today i installed Rust, created my fist rust project with cargo(Rust package manager) and ran my first Hello World!! program in Rust.  ***
+- **What I Learned**: *Today i installed Rust, created my fist rust project with cargo(Rust package manager) and ran my first Hello World!! program in Rust.*
 - **Code Examples**: 
 ```rust
 fn main(){
     println!("Hello World!! This is my first Rust program as a Rustaceun ")
 }
+```
+
+### **Date: [2026-03-20]**
+- **Topic**: ***Variables***
+- **What I Learned**: 
+    - Unlike variables in other programming languages, Variables in Rust are immutable by defualt until you annotate the variable with the 'mut' keywor to make it mutable.
+    - **Shadowing**: In Rust, shadowing refers to the practice of declaring a new variable with the same name as a previous variable. The new variable "shadows" the original, making it inaccessible within the current scope while the new one is active. 
+
+- **Code Examples**: 
+```rust
+// Todo
+// Imma add the code here but i dont know when mate.
