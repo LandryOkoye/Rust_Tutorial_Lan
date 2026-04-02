@@ -72,3 +72,42 @@ fn main(){
 ```rust
 // Todo
 // Imma add the code here but i dont know when mate.
+```
+### **Date: [2026-03-29]**
+- **Topic**: ***Data Types***
+- **What I Learned**: 
+    - Read more about data types [text](https://doc.rust-lang.org/book/ch03-02-data-types.html)   
+
+- **Code Examples**: 
+```rust
+// SCALAR TYPES
+
+// Signed Int
+let number: i32 = 30;
+let number: i64 = -30;
+let number = 30i32; // You can either anotate or suffix the integer type to the value it self.
+
+// Un-signed int(Intgers that cannot have a sign '-' to them)
+let number: u32 = 42;
+
+// Floats are represented with 'f' e.g, f32, f64, f8, f16, depending on the bit size.
+let floats: f64 = 12.4;
+
+// Booleans True/False
+// just as you know.... true/false
+let bool = true;
+
+// Char 
+let char = 'L'
+
+// COMPOUND TYPES
+
+// Tupples: can contain values of dif types
+let obj = ("landry", 18, 9.9); // just adding values to the tuples.
+let objt: (string, i32, f32); // Defining the tuples types
+
+// Arrays
+let arr: [i32, 5] = [32, 44, 5, 03, 22]
+```
+
+Read more:  [text](https://doc.rust-lang.org/book/ch03-02-data-types.html)
