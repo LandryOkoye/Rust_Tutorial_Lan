@@ -70,13 +70,16 @@ fn main(){
 
 - **Code Examples**: 
 ```rust
-// Todo
-// Imma add the code here but i dont know when mate.
+    let var = landry;;
+
+    let mut name = landry; // mutable variable
+
+    let age: i32 = 27; // a type anotated variable.
 ```
 ### **Date: [2026-03-29]**
 - **Topic**: ***Data Types***
 - **What I Learned**: 
-    - Read more about data types [text](https://doc.rust-lang.org/book/ch03-02-data-types.html)   
+    - Read more about data types [learn more](https://doc.rust-lang.org/book/ch03-02-data-types.html)   
 
 - **Code Examples**: 
 ```rust
@@ -110,4 +113,36 @@ let objt: (string, i32, f32); // Defining the tuples types
 let arr: [i32, 5] = [32, 44, 5, 03, 22]
 ```
 
-Read more:  [text](https://doc.rust-lang.org/book/ch03-02-data-types.html)
+Read more:  [Learn more](https://doc.rust-lang.org/book/ch03-02-data-types.html)
+
+### **Date: [2026-03-29]**
+- **Topic**: ***Control Flow***
+- **What I Learned**: 
+    -   Conditional statements, If-else, are written just like other languages, theres actually no much difference.
+    - You can write a if-else expression in a variable. But the return values must have matching types, as dispplayed in the code below.
+
+
+- **Code Examples**: 
+```rust
+
+    fn main() {
+    let number = 6;
+
+    if number % 4 == 0 {
+        println!("number is divisible by 4");
+    } else if number % 3 == 0 {
+        println!("number is divisible by 3");
+    } else if number % 2 == 0 {
+        println!("number is divisible by 2");
+    } else {
+        println!("number is not divisible by 4, 3, or 2");
+    }
+
+
+
+    let condition = true;
+    let number = if condition { 5 } else { 6 };
+
+    println!("The value of number is: {number}");
+}
+```
