@@ -83,7 +83,7 @@ fn main(){
 
 - **Code Examples**: 
 ```rust
-// SCALAR TYPES
+// SCALAR TYPES -------
 
 // Signed Int
 let number: i32 = 30;
@@ -103,14 +103,17 @@ let bool = true;
 // Char 
 let char = 'L'
 
-// COMPOUND TYPES
+// COMPOUND TYPES -------
 
 // Tupples: can contain values of dif types
 let obj = ("landry", 18, 9.9); // just adding values to the tuples.
 let objt: (string, i32, f32); // Defining the tuples types
 
 // Arrays
-let arr: [i32, 5] = [32, 44, 5, 03, 22]
+let arr: [i32; 5] = [32, 44, 5, 03, 22]
+
+// accessing array elements
+let first = arr[0] // this gets the first element in the array
 ```
 
 Read more:  [Learn more](https://doc.rust-lang.org/book/ch03-02-data-types.html)
@@ -124,6 +127,7 @@ Read more:  [Learn more](https://doc.rust-lang.org/book/ch03-02-data-types.html)
 
 - **Code Examples**: 
 ```rust
+    //  IF-STATEMENTS --------
 
     fn main() {
     let number = 6;
@@ -139,10 +143,58 @@ Read more:  [Learn more](https://doc.rust-lang.org/book/ch03-02-data-types.html)
     }
 
 
-
     let condition = true;
     let number = if condition { 5 } else { 6 };
 
     println!("The value of number is: {number}");
+
+
+    // LOOP ------------
+
+    loop {
+        // block of code you want to run repeatedly
+    }
+
+    let value = 0;
+    let data = loop {
+        // code 
+
+        break; // Use the break keyword to stop/break outta the loop.
+        break value + 2; // Returning a value from a loop. break out but return a value.
+    }
+
+    //   WHILE LOOP  ------------
+    // For looping through data at a certain condition.
+
+    let numbet: i32 = 5
+    while number != 5{
+        // code
+    }
 }
+```
+### **Date: [2026-06-26]**
+- **Topic**: *** Functions ***
+- **What I Learned**: 
+    - Functions in rust are just the same like functions/methods in most programming languages, but the case must be snake_case e.g "place_order".
+    - Because Rust is an expression based language, every must have or be an expression.
+    - When creating a function you must specify the return type.
+
+
+- **Code Examples**: 
+```rust 
+    fn main(){
+
+        let order = place_order(232);
+        
+        get_orders();
+    }
+
+    fn place_order(order_id: u64) -> i32{
+        // code implementation
+    }
+
+    fn get_orders() -> Result<>{
+        // code implementation
+    }
+
 ```
