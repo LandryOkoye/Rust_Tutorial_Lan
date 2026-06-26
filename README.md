@@ -198,3 +198,24 @@ Read more:  [Learn more](https://doc.rust-lang.org/book/ch03-02-data-types.html)
     }
 
 ```
+- **Topic**: *** Ownership ***
+- **What I Learned**: 
+    - Rust does not have a garbage collector so less memory. Because of that Data only live once and to make use of them you have to make reference to them instead(borrow).
+
+
+- **Code Examples**: 
+
+```rust
+
+    fn main(){
+        let name = "landry"; // owner
+
+        let p = people(&name); // borrowing 
+        
+    }
+
+    fn people(x: String){
+        // code\
+        println!("{}", x)
+    }
+```
