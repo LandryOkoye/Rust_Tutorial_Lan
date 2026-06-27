@@ -70,11 +70,13 @@ fn main(){
 
 - **Code Examples**: 
 ```rust
-    let var = landry;;
+fn main(){
+  let var = landry;;
 
-    let mut name = landry; // mutable variable
+  let mut name = landry; // mutable variable
 
-    let age: i32 = 27; // a type anotated variable.
+  let age: i32 = 27; // a type anotated variable.
+}
 ```
 ### **Date: [2026-03-29]**
 - **Topic**: ***Data Types***
@@ -83,7 +85,8 @@ fn main(){
 
 - **Code Examples**: 
 ```rust
-// SCALAR TYPES -------
+    fn main(){
+  // SCALAR TYPES -------
 
 // Signed Int
 let number: i32 = 30;
@@ -101,7 +104,7 @@ let floats: f64 = 12.4;
 let bool = true;
 
 // Char 
-let char = 'L'
+let char = 'L';
 
 // COMPOUND TYPES -------
 
@@ -110,11 +113,13 @@ let obj = ("landry", 18, 9.9); // just adding values to the tuples.
 let objt: (string, i32, f32); // Defining the tuples types
 
 // Arrays
-let arr: [i32; 5] = [32, 44, 5, 03, 22]
+let arr: [i32; 5] = [32, 44, 5, 03, 22];
 
 // accessing array elements
-let first = arr[0] // this gets the first element in the array
+let first = arr[0];  // this is supposed to get the first element in the array
 ```
+  
+}
 
 Read more:  [Learn more](https://doc.rust-lang.org/book/ch03-02-data-types.html)
 
@@ -161,12 +166,12 @@ Read more:  [Learn more](https://doc.rust-lang.org/book/ch03-02-data-types.html)
 
         break; // Use the break keyword to stop/break outta the loop.
         break value + 2; // Returning a value from a loop. break out but return a value.
-    }
+    };
 
     //   WHILE LOOP  ------------
     // For looping through data at a certain condition.
 
-    let numbet: i32 = 5
+    let numbet: i32 = 5;
     while number != 5{
         // code
     }
